@@ -3,6 +3,5 @@ node_js:
 - 6
 deploy:
   provider: heroku
-  # api_key:
-  #   secure:
-  # app: sample-2016
+  api_key: 5c9df5d2-32c8-4af6-a3fd-70094907586f
+  app: sample-kirrok

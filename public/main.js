@@ -6,7 +6,7 @@ function filter(str, rules = ['KEK', 'voloshin', 'yandex']) {
 
 	rules = rules.map(rule => {
         return {
-            regexp: new RegExp('\\b' + rule + '\\b', 'g'),
+            regexp: new RegExp(`\\b${rule}\\b`, 'g'),
             length: rule.length
         };
     });
